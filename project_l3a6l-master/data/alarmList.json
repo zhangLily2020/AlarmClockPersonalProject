@@ -1,0 +1,20 @@
+{"alarms": [
+    {
+        "repeat days": ["Mon"],
+        "reminder text": "Lunch!",
+        "time": 1200
+    },
+    {
+        "repeat days": [
+            "Wed",
+            "Thu"
+        ],
+        "reminder text": "Sleep!!!",
+        "time": 0
+    },
+    {
+        "repeat days": ["Mon"],
+        "reminder text": "",
+        "time": 1111
+    }
+]}

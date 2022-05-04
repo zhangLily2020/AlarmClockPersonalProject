@@ -1,0 +1,15 @@
+{"alarms": [
+    {
+        "repeat days": ["Wed"],
+        "reminder text": "sdcs",
+        "time": 1111
+    },
+    {
+        "repeat days": [
+            "Mon",
+            "Wed"
+        ],
+        "reminder text": "no",
+        "time": 1222
+    }
+]}

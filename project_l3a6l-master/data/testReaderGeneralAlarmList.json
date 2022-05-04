@@ -1,0 +1,15 @@
+{"alarms": [
+  {
+    "repeat days": [],
+    "reminder text": "make a wish",
+    "time": 1111
+  },
+  {
+    "repeat days": [
+      "Wed",
+      "Mon"
+    ],
+    "reminder text": "",
+    "time": 2311
+  }
+]}
