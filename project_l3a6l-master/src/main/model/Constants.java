@@ -1,0 +1,5 @@
+package model;
+
+public class Constants {
+    static String auth_token = "BQCTlsgdSUxOx4ceAnZqeL0vuQpKQYjY7kPz9l0veyagZ1eTHkqXWNQFJFBvF4uMmGFGmraocYs_UpXp9cCUQFChWMCJI0JbhtVIpnXzl-k3JfD9RiYeg8jPsUGPEwJGEMd7k1DpzC2IqsEHvhxg6J-bfaj02cgKmTq2nl7kHWQZ0NBRcQlE4a8Fcqig_5WwHSF35rg";
+}
