@@ -5,7 +5,7 @@ import java.util.Date;
 import java.util.Scanner;
 
 public class AlarmClock {
-    public void startAlarm (){
+    public void alarmClock (){
 
         String q;
 
