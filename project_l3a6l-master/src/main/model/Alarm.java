@@ -74,7 +74,7 @@ public class Alarm implements Writable {
         return json;
     }
 
-    // EFFECTS: returns repreatDays in this alarm as a JSON array
+    // EFFECTS: returns repeatDays in this alarm as a JSON array
     public JSONArray repeatDaysToJson() { //Code extracted from JsonSerializationDemo
         JSONArray jsonArray = new JSONArray();
 

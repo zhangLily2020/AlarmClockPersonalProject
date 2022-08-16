@@ -21,7 +21,7 @@ import java.io.IOException;
 // Alarm clock GUI
 public class AlarmListGUI extends JPanel
         implements ListSelectionListener {
-    private static final String JSON_STORE = "./data/alarmList.json";
+    private static final String JSON_STORE = "./project_l3a6l-master/data/alarmList.json";
     private JList<Alarm> list;
     private DefaultListModel<Alarm> listModel;
     private AlarmList alarms;
@@ -129,7 +129,7 @@ public class AlarmListGUI extends JPanel
         // picture downloaded
         // from https://www.pinclipart.com/pindetail/iTomboh_alarm-clock-clipart-clock-face-png-download/
         clockImage = new ImageIcon(System.getProperty("user.dir")
-                + sep + "data" + sep + "AlarmClock.png");
+                + sep +"project_l3a6l-master"+ sep + "data" + sep + "AlarmClock.png");
         Image image = clockImage.getImage();
         Image resizedImage = image.getScaledInstance(400, 350,  Image.SCALE_SMOOTH);
         clockImage = new ImageIcon(resizedImage);
@@ -256,7 +256,7 @@ public class AlarmListGUI extends JPanel
             // picture downloaded
             // from https://www.pinclipart.com/maxpin/oxoTw/
             ImageIcon saveImage = new ImageIcon(System.getProperty("user.dir")
-                    + sep + "data" + sep + "SavedClock.png");
+                    + sep +"project_l3a6l-master" + sep + "data" + sep + "SavedClock.png");
             Image image = saveImage.getImage();
             Image resizedImage = image.getScaledInstance(300, 350,  java.awt.Image.SCALE_SMOOTH);
             saveImage = new ImageIcon(resizedImage);
